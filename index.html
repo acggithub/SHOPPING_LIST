@@ -1,0 +1,52 @@
+ <!DOCTYPE html>
+<html>
+<head>
+ <title>Javascript + DOM</title>
+<!-- Required metad-ata tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+		<!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself
+		 Your own stylesheet -->
+
+ <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+ <h1 class= "coolTitle">Shopping List</h1>
+ <p id="first"><strong>Get it done today</strong></p>
+ <input id="userinput" type="text" placeholder="enter items">
+ <button id="enter"><strong>Enter</strong></button>
+   
+  <div class="container">
+   <div id = "hide">
+     <ul id = "demo">
+      <li id="delli[0]" class="inline inD">Notebook</li>
+      <button id="ID[0]" onclick="removeClassHide(this.id, this.className, event)" class = "delLiButton" type="button">DELETE</button><br>
+
+      <li id="delli[1]" class="inline inD">Jello</li>
+      <button id="ID[1]" onclick="removeClassHide(this.id, this.className, event)" class = "delLiButton" type="button">DELETE</button><br>
+
+      <li id="delli[2]" class="inline inD">Spinach</li>
+      <button id="ID[2]" onclick="removeClassHide(this.id, this.className, event)" class = "delLiButton" type="button">DELETE</button><br>
+
+      <li id="delli[3]" class="inline inD">Rice</li>
+      <button id="ID[3]" onclick="removeClassHide(this.id, this.className, event)" class = "delLiButton" type="button">DELETE</button><br>
+
+      <li id="delli[4]" class="inline inD">Birthday Cake</li>
+      <button id="ID[4]" onclick="removeClassHide(this.id, this.className, event)" class = "delLiButton" type="button">DELETE</button><br>
+
+      <li id="delli[5]" class="inline inD">Candles</li>
+      <button id="ID[5]" onclick="removeClassHide(this.id, this.className, event)" class = "delLiButton" type="button">DELETE</button><br>
+     </ul>
+    </div>
+  </div>    
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
